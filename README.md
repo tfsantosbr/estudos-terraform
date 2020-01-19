@@ -14,6 +14,9 @@ terraform apply
 
 # Remover todas as alterações
 terraform destroy
+
+# Bonus de comando para aceitar automáticamente
+terraform apply/destroy -auto-approve
 ```
 
 Arquivos Principais:
