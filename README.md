@@ -41,3 +41,21 @@ stag.tfvars
 # Executando comando e setando a variavel
 terraform applu -var-file="dev.tfvars"
 ```
+
+Workspaces:
+
+```bash
+# Listar workspaces
+terraform workspace list
+
+# Criar um workspace
+terraform workspace new prod
+terraform workspace new dev
+terraform workspace new staging
+
+# Selecionar um workspace
+terraform workspace select prod
+
+# Remove rum workspace
+terraform workspace delete prod
+```
